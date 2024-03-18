@@ -4,8 +4,7 @@
 }
 
 body{
-    background-color: darkslategrey;
-    color: white;
+    background-color: #496989;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -23,7 +22,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: #58A399;
     padding: 50px;
 }
 .title_etiquetas{
@@ -32,11 +31,41 @@ body{
 p{
     font-size: 20px;
 }
+
+.body__nav{
+    font-size: 15px;
+    list-style-type: none;
+}
+
+.body__nav > div{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.final{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
 footer{
-    background-color: chocolate;
-    color: white;
+    background-color: #A8CD9F;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 250px;
+    overflow: hidden;
+}
+
+.font{
+    color: black;
+}
+
+@media (width < 901px){ 
+    .etiquetas{
+        flex-direction: column;
+    }
 }
